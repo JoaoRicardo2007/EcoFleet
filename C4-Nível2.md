@@ -1,24 +1,23 @@
-# C4 Nível 2 - Diagrama de Contexto
+# C4 Nível 2 - Diagrama de Contêineres
 
 ```mermaid
 mindmap
-  root((Plataforma de Mobilidade))
-    Pessoas
-      Cliente
-        Inicia e encerra corridas
-        Paga via PIX ou cartão
-      Operador de Frota
-        Monitora veículos
-        Acompanha bateria e corridas
-    Sistemas externos
-      Veículos IoT
-        Enviam GPS e bateria a cada 5s
-        Protocolo MQTT sobre TLS
-      PSP de Pagamento
-        Processa PIX e cartão
-        Confirma pagamento via webhook
-      Serviço de Notificação
-        Push
-        SMS
-        E-mail
+  root((Contêineres))
+    Acesso
+      App Mobile
+      Painel Web
+      API Gateway
+    Ingestão de telemetria
+      Gateway IoT com MQTT
+      Kafka
+      Serviço de Ingestão
+    Corridas e cobrança
+      Serviço de Corridas
+      Serviço de Cobrança
+      Adaptador de Pagamento
+    Dados
+      TimescaleDB para telemetria
+      PostgreSQL de corridas
+      PostgreSQL de cobrança e outbox
+      Redis para última posição
 ```
