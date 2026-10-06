@@ -67,11 +67,10 @@ Os diagramas estão em blocos ` ```mermaid ` e o GitHub renderiza automaticament
 
 ## Autores
 
-**João Ricardo Fernandes Vieira dos Santos // 16037766**
-**Kawê Keven dos Santos Figueredo // 16036728**
-**Alan Sousa dos Santos // 16034571**
-**Thiago José Teles Gois // 16037933**
-**Paulo Guilherme Oliveira de Lima // 16035427**
-Estudante de Análise e Desenvolvimento de Sistemas, com foco em back-end C# e .NET.
+- **João Ricardo Fernandes Vieira dos Santos // 16037766**
+- **Kawê Keven dos Santos Figueredo // 16036728**
+- **Alan Sousa dos Santos // 16034571**
+- **Thiago José Teles Gois // 16037933**
+- **Paulo Guilherme Oliveira de Lima // 16035427**
 
 - GitHub: [JoaoRicardo2007](https://github.com/JoaoRicardo2007)
