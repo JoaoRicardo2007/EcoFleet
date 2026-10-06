@@ -16,9 +16,9 @@ O trabalho entrega:
 
 | Parte | Descrição | Link |
 |-------|-----------|------|
-| Drivers | ASRs e restrição de negócio | [docs/01-drivers](docs/01-drivers/README.md) |
-| C4 Nível 1 | Contexto: pessoas e sistemas externos | [docs/02-c4-contexto](docs/02-c4-contexto/README.md) |
-| C4 Nível 2 | Contêineres: serviços, bancos e mensageria | [docs/03-c4-containers](docs/03-c4-containers/README.md) |
+| Drivers | ASRs e restrição de negócio | [Drivers.md](Drivers.md) |
+| C4 Nível 1 | Contexto: pessoas e sistemas externos | [C4-Nível1.md](C4-N%C3%ADvel1.md) |
+| C4 Nível 2 | Contêineres: serviços, bancos e mensageria | [C4-Nível2.md](C4-N%C3%ADvel2.md) |
 
 ## Resumo dos drivers
 
@@ -52,13 +52,9 @@ O trabalho entrega:
 ```
 .
 ├── README.md
-└── docs
-    ├── 01-drivers
-    │   └── README.md
-    ├── 02-c4-contexto
-    │   └── README.md
-    └── 03-c4-containers
-        └── README.md
+├── Drivers.md
+├── C4-Nível1.md
+└── C4-Nível2.md
 ```
 
 ## Como visualizar os diagramas
