@@ -72,5 +72,3 @@ Os diagramas estão em blocos ` ```mermaid ` e o GitHub renderiza automaticament
 - **Alan Sousa dos Santos // 16034571**
 - **Thiago José Teles Gois // 16037933**
 - **Paulo Guilherme Oliveira de Lima // 16035427**
-
-- GitHub: [JoaoRicardo2007](https://github.com/JoaoRicardo2007)
